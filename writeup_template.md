@@ -45,11 +45,11 @@ In order to complete this exercise, I implemented the following steps:
 
 * Draw the lines onto the original image 
 
-![Initial image][CarND--LaneLines-P1/image_output/initial_img.png]
-![Grayscale image][CarND--LaneLines-P1/image_output/grayscale.png]
-![Canny image][CarND--LaneLines-P1/image_output/edges.png]
-![Masked edges image][CarND--LaneLines-P1/image_output/masked_edges.png]
-![Line image][CarND--LaneLines-P1/image_output/line_image.png]
+![Initial image][sfiisk/CarND--LaneLines-P1/image_output/initial_img.png]
+![Grayscale image][sfiisk/CarND--LaneLines-P1/image_output/grayscale.png]
+![Canny image][sfiisk/CarND--LaneLines-P1/image_output/edges.png]
+![Masked edges image][sfiisk/CarND--LaneLines-P1/image_output/masked_edges.png]
+![Line image][sfiisk/CarND--LaneLines-P1/image_output/line_image.png]
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by determining which points belong to the left and right side. 
 From these points, we can determine whether the line is trending downwards or upwards. 
